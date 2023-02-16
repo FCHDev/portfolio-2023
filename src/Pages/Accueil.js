@@ -33,7 +33,7 @@ const Accueil = () => {
     ]
 
     return (
-        <div className="min-h-[80vh] lg:container flex flex-col items-center mx-auto my-[10vh] pt-5 md:animate-appear px-4">
+        <div className="min-h-[80vh] lg:container flex flex-col items-center mx-auto my-[11vh] pt-5 md:animate-appear px-4">
             {/*Photo de profil*/}
             <ProfilPic/>
             <h1 className="text-2xl md:text-4xl md:py-1 font-headerTitle font-semibold">François Chevalier</h1>
