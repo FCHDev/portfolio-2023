@@ -33,7 +33,7 @@ const Accueil = () => {
     ]
 
     return (
-        <div className="min-h-[80vh] md:container flex flex-col items-center mx-auto my-[10vh] pt-5 md:animate-appear px-4">
+        <div className="min-h-[80vh] lg:container flex flex-col items-center mx-auto my-[10vh] pt-5 md:animate-appear px-4">
             {/*Photo de profil*/}
             <ProfilPic/>
             <h1 className="text-2xl md:text-4xl md:py-1 font-headerTitle font-semibold">François Chevalier</h1>
@@ -43,7 +43,7 @@ const Accueil = () => {
             <SocialLogos/>
 
             {/*Technos*/}
-            <div className="w-full flex flex-col items-center px-2 md:px-10 my-10">
+            <div className="w-full flex flex-col items-center px-2 lg:px-10 my-10">
                 <h2 className="md:text-3xl text-2xl font-bold text-bleu-vert font-headerTitle">
                     Stack
                     <span className="text-jaune ml-2">
@@ -51,7 +51,7 @@ const Accueil = () => {
                     </span>
                 </h2>
                 <div
-                    className="flex justify-evenly items-center w-full md:w-1/2 rounded-2xl bg-gray-300 py-3 px-2 mt-3 mb-5">
+                    className="flex justify-evenly items-center w-full lg:w-1/2 rounded-2xl bg-gray-300 py-3 md:px-2 mt-3 mb-5">
                     {stackTechnique.map((techno, index) =>
                         <img className="h-[50px] md:h-[70px] w-auto object-cover" src={techno.img} alt={techno.name}
                              key={index}/>)}
@@ -63,7 +63,7 @@ const Accueil = () => {
                     </span>
                 </h2>
                 <div
-                    className="flex justify-evenly items-center w-full md:w-1/2 rounded-2xl bg-gray-300 py-3 px-2 mt-3">
+                    className="flex justify-evenly items-center w-full lg:w-1/2 rounded-2xl bg-gray-300 py-3 md:px-2 mt-3">
                     {stackCreative.map((techno, index) =>
                         <img className="h-[50px] md:h-[70px] w-auto object-cover" src={techno.img} alt={techno.name}
                              key={index}/>)}
