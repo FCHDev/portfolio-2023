@@ -126,7 +126,7 @@ const Navbar = () => {
                     md:w-full
                     md:pb-9
                     md:bg-transparent
-                    w-[320px]
+                    w-full
                     text-2xl 
                     justify-center
                     pt-5
@@ -138,7 +138,7 @@ const Navbar = () => {
                     rounded-2xl
                     left-0
                     pl-9 
-                    transition-all duration-500 ease-in z-20 ${isOpen ? 'top-14 md:top-24 opacity-100' : 'top-[-490px]'}`}>
+                    transition-all duration-500 ease-in z-20 ${isOpen ? 'top-16 md:top-24 opacity-100' : 'top-[-490px]'}`}>
                 {menuItems.map((item, index) => (
                     <div key={index}
                          className="py-2 md:py-0 md:mx-8 md:text-white text-gray-700 transition ease-in-out lg:hover:-translate-y-1 lg:hover:scale-105 duration-300 font-headerTitle">

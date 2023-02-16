@@ -34,16 +34,18 @@ const Accueil = () => {
 
     return (
         <div className="min-h-[80vh] lg:container flex flex-col items-center mx-auto my-[11vh] pt-5 md:animate-appear px-4">
-            {/*Photo de profil*/}
-            <ProfilPic/>
-            <h1 className="text-2xl md:text-4xl md:py-1 font-headerTitle font-semibold">François Chevalier</h1>
-            <h2 className="text-base md:text-xl"><em>Développeur Front End ReactJS</em></h2>
+            <div className="h-[80vh] sm:h-max flex flex-col justify-center items-center">
+                {/*Photo de profil*/}
+                <ProfilPic/>
+                <h1 className="text-2xl md:text-4xl md:py-1 font-headerTitle font-semibold">François Chevalier</h1>
+                <h2 className="text-base md:text-xl"><em>Développeur Front End ReactJS</em></h2>
 
-            {/*Réseaux sociaux*/}
-            <SocialLogos/>
+                {/*Réseaux sociaux*/}
+                <SocialLogos/>
+            </div>
 
             {/*Technos*/}
-            <div className="w-full flex flex-col items-center px-2 lg:px-10 my-10">
+            <div className="w-full flex flex-col items-center px-2 lg:px-10 pt-20 mb-10">
                 <h2 className="md:text-3xl text-2xl font-bold text-bleu-vert font-headerTitle">
                     Stack
                     <span className="text-jaune ml-2">
@@ -71,7 +73,7 @@ const Accueil = () => {
             </div>
 
             {/*Parcours*/}
-            <div className="w-full flex flex-col items-start md:px-2 md:px-10 my-5">
+            <div className="w-full flex flex-col items-center sm:items-start md:px-2 md:px-10 my-5">
                 <h2 className="md:text-3xl text-2xl font-bold text-bleu-vert font-headerTitle pb-2">
                     Parcours
                 </h2>
