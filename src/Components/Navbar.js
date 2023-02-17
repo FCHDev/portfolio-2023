@@ -94,6 +94,7 @@ const Navbar = () => {
     const menuItems = [
         {title: 'Accueil', link: '/'},
         {title: 'Services', link: '/services'},
+        {title: 'Tarifs', link: '/offre'},
         {title: 'Projets', link: '/projets'},
         {title: 'Contact', link: '/contact'}
         ]

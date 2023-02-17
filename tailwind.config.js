@@ -8,9 +8,13 @@ module.exports = {
       'jaune': '#D9A408',
       'bleu-vert': '#264653',
       'bleu-clair': '#84DCCF',
+      'rose-rouge': '#F25F5C',
+      'chocolat': '#4C061D',
+      'anti-flash': '#E9E8ED',
       'gris': '#EBEBEB',
       'gris-clair': '#F5F5F5',
       'white': '#FFFFFF',
+      'black': '#000000',
     },
     fontFamily: {
       headerTitle: ['Oswald', 'sans-serif'],
