@@ -105,7 +105,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="fixed flex justify-center items-center bg-bleu-vert top-0 w-full h-[10vh] shadow-lg z-20">
+        <div className="fixed flex sm:justify-center items-center bg-bleu-vert top-0 w-full h-[10vh] shadow-lg z-20">
             <div onClick={() => setIsOpen(!isOpen)}
                  className="text-3xl w-8 absolute right-8 top-5 md:top-10 cursor-pointer lg:hidden z-20">
                 {isOpen ? closeBurger : menuBurger}
@@ -152,10 +152,9 @@ const Navbar = () => {
                         </NavLink>
                     </div>))}
             </div>
-            <div className="w-max flex justify-center md:fixed
-            2xl:top-8 2xl:right-8
-            xl:top-4 xl:right-8
-            2xl:top-8 2xl:right-8">
+            <div className="w-max flex sm:ml-0 ml-5 justify-center md:fixed
+            2xl:top-10 2xl:right-8
+            xl:top-4 xl:right-8">
                 <ButtonContactPhone/>
                 <div className="w-10"></div>
                 <ButtonContactMail/>

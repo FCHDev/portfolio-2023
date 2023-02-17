@@ -12,6 +12,7 @@ import bootstrap from "../Assets/Logos/bootstrap.png";
 import mui from "../Assets/Logos/mui.png";
 import affiPhoto from "../Assets/Logos/affinityphoto.png";
 import affiDesigner from "../Assets/Logos/affinitydesigner.png";
+import arrowDown from "../Assets/SVG/down-arrow.svg";
 import Accordion from "../Components/Accordion";
 
 const Accueil = () => {
@@ -43,10 +44,19 @@ const Accueil = () => {
 
                 {/*Réseaux sociaux*/}
                 <SocialLogos/>
+                <div className="pt-10 animate-pulse">
+                    <a href="#tech">
+                        <img src={arrowDown} alt="flèche qui indique qu'il faut scroller vers le bas"
+                             className="sm:hidden h-[60px]"/>
+                    </a>
+                </div>
             </div>
 
+            <div id="tech" className="sm:hidden pt-5"></div>
+
             {/*Technos*/}
-            <div className="w-full flex flex-col items-center px-2 py-3 mt-20 mb-10 border border-bleu-vert border-opacity-50 rounded-2xl bg-white">
+            <div
+                className="w-full flex flex-col items-center px-2 py-3 mt-20 mb-10 border border-bleu-vert border-opacity-50 rounded-2xl bg-white">
                 <h2 className="md:text-3xl text-2xl font-bold text-bleu-vert font-headerTitle">
                     Stack
                     <span className="text-jaune ml-2">
