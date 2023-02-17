@@ -60,7 +60,7 @@ const ProjectCard = ({
             variants={variants}
         >
             {/*  Recto de la carte projet*/}
-            <h1 className={textColor}>{name}</h1>
+            <h1 className={`${textColor} font-headerTitle`}>{name}</h1>
             <a href={url} rel="noopener">
                 <img className="picture" src={cover} alt={name}/>
             </a>

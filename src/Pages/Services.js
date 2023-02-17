@@ -22,10 +22,10 @@ const Services = () => {
                     {mesServices.map((service) => (
                             <div key={service.id}>
                                 <div
-                                    className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-jaune lg:h-14 lg:w-14">
+                                    className={`flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-${service.color} lg:h-14 lg:w-14`}>
                                     {service?.icon}
                                 </div>
-                                <h3 className="mb-2 text-xl font-bold text-bleu-vert font-bodyFont2">
+                                <h3 className={`mb-2 text-xl font-bold text-${service.color} font-bodyFont2`}>
                                     {service.title}
                                 </h3>
                                 <p className="text-gray-500 font-bodyFont2">

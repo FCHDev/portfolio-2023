@@ -34,6 +34,7 @@ body {
   align-items: center;
   flex-direction: column;
   height: auto;
+  max-height: 550px;
   width: 22em;
   border-radius: 10px;
   transition: 0.3s;
@@ -49,7 +50,6 @@ body {
 .card-project h1 {
   font-size: 1.9rem;
   /*color: #2a9d8f;*/
-  font-family: "Oswald", serif;
   font-weight: bold;
   margin: 0;
   padding: 0.5em 0;

@@ -2,9 +2,10 @@ const mesServices = [
     {
         id: 1,
         title: "Gestion de projets web",
-        body: "Site vitrine, corporate, événementiel, e-commerce, intranet",
+        color: "jaune",
+        body: "Site vitrine, corporate, événementiel, e-commerce, intranet.",
         icon: <svg className="w-5 h-5 text-bleu-vert lg:w-7 lg:h-7" id="Layer_1"
-                   fill="#264653"
+                   fill="white"
                    viewBox="0 0 64 64"
                    xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
             <path
@@ -24,10 +25,11 @@ const mesServices = [
     {
         id: 2,
         title: "Intégration web",
-        body: "Des intégrations HTML/CSS/JS respectueuses des standards du web",
+        color: "rose-rouge",
+        body: "Des intégrations HTML/CSS/JS respectueuses des standards du web.",
         icon: <svg id="Layer_1" enableBackground="new 0 0 450 450"
                    className="w-5 h-5 text-bleu-vert lg:w-7 lg:h-7"
-                   fill="#264653"
+                   fill="white"
                    viewBox="0 0 450 450"
                    xmlns="http://www.w3.org/2000/svg">
             <g id="_x32_074_-_Cloud_Computing">
@@ -101,10 +103,11 @@ const mesServices = [
     {
         id: 3,
         title: "Développements spécifiques",
-        body: "Développements spécifiques front-end pour des outils adaptés à votre coeur de métier, applications & solutions personnalisées",
+        color: "bleu-vert",
+        body: "Développements spécifiques front-end pour des outils adaptés à votre coeur de métier, applications & solutions personnalisées.",
         icon: <svg version="1.1" id="Capa_1"
                    className="w-5 h-5 text-bleu-vert lg:w-7 lg:h-7"
-                   fill="#264653"
+                   fill="white"
                    xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                    viewBox="0 0 512 512" xmlSpace="preserve">
     <g>
@@ -167,10 +170,11 @@ C272.548,260.85,272.408,251.56,266.8,245.685z"/>
     {
         id: 4,
         title: "Référencement naturel",
-        body: "Affichage sémantique des informations, optimisation des contenus, des pages propres pour un référencement optimal",
+        color: "silver-lake",
+        body: "Affichage sémantique des informations, optimisation des contenus, des pages propres pour un référencement optimal.",
         icon: <svg id="Layer_1" enableBackground="new 0 0 512 512"
                    className="w-5 h-5 text-bleu-vert lg:w-7 lg:h-7"
-                   fill="#264653"
+                   fill="white"
                    viewBox="0 0 512 512"
                    xmlns="http://www.w3.org/2000/svg">
             <path
@@ -180,10 +184,11 @@ C272.548,260.85,272.408,251.56,266.8,245.685z"/>
     {
         id: 5,
         title: "Dynamisme des pages",
-        body: "Des animations de contenu non intrusives, des transitions fluides et des interactions intuitives pour embellir votre projet",
+        color: "chocolat",
+        body: "Des animations de contenu non intrusives, des transitions fluides et des interactions intuitives pour embellir votre projet.",
         icon: <svg id="Capa_1" enableBackground="new 0 0 512 512"
                    className="w-5 h-5 text-bleu-vert lg:w-7 lg:h-7"
-                   fill="#264653"
+                   fill="white"
                    viewBox="0 0 512 512"
                    xmlns="http://www.w3.org/2000/svg">
             <g>
@@ -209,10 +214,11 @@ C272.548,260.85,272.408,251.56,266.8,245.685z"/>
     {
         id: 6,
         title: "Interface d'administration",
+        color: "clair",
         body: "Un CMS ergonomique et 'sur mesure' pour gérer votre site web",
         icon: <svg id="Layer_1" enableBackground="new 0 0 512 512"
                    className="w-5 h-5 text-bleu-vert lg:w-7 lg:h-7"
-                   fill="#264653"
+                   fill="white"
                    viewBox="0 0 512 512"
                    xmlns="http://www.w3.org/2000/svg">
             <path clipRule="evenodd"
@@ -223,11 +229,12 @@ C272.548,260.85,272.408,251.56,266.8,245.685z"/>
     {
         id: 7,
         title: "Responsive design",
+        color: "black",
         body: "Compatible tous supports (ordinateur, tablette, smartphone)",
         icon: <svg id="svg31911"
                    viewBox="0 0 16.933333 16.933334"
                    className="w-6 h-6 text-bleu-vert lg:w-8 lg:h-8"
-                   fill="#264653"
+                   fill="white"
                    xmlns="http://www.w3.org/2000/svg">
             <g id="layer1" transform="translate(0 -280.067)">
                 <path id="path21611"
