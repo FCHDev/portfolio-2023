@@ -109,7 +109,7 @@ const Projets = () => {
     }
 
     return (
-        <div className="min-h-[80vh] container mx-auto bg-gray-500 mt-[10vh] mb-[4vh] pt-5 animate-appear">
+        <div className="min-h-[80vh] container mx-auto mt-[10vh] mb-[4vh] pt-5 animate-appear">
             <div className="flex justify-center">
                 <div className="form-check form-check-inline flex items-center">
                     <button

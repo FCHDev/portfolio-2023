@@ -76,8 +76,8 @@ const ProjectCard = ({
 
             {/*  Verso de la carte projet*/}
             <div className="infos">
-                <h2 style={{paddingBottom: "5px"}}>{name}</h2>
-                <p>{description}</p>
+                <h2 className="pb-[5px] font-headerTitle">{name}</h2>
+                <p className="font-bodyFont2">{description}</p>
                 <br/>
                 <p style={{paddingBottom: "1em"}}>
                     {api}

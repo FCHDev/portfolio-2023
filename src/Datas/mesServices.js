@@ -214,7 +214,7 @@ C272.548,260.85,272.408,251.56,266.8,245.685z"/>
     {
         id: 6,
         title: "Interface d'administration",
-        color: "clair",
+        color: 'cadet',
         body: "Un CMS ergonomique et 'sur mesure' pour gérer votre site web",
         icon: <svg id="Layer_1" enableBackground="new 0 0 512 512"
                    className="w-5 h-5 text-bleu-vert lg:w-7 lg:h-7"
