@@ -36,7 +36,7 @@ const Accueil = () => {
     return (
         <div
             className="min-h-[80vh] lg:container flex flex-col items-center mx-auto mt-[11vh] pt-5 md:animate-appear px-4 md:px-0">
-            <div className="h-screen sm:h-max flex flex-col justify-center items-center">
+            <div className="h-[85vh] sm:h-max flex flex-col justify-center items-center">
                 {/*Photo de profil*/}
                 <ProfilPic/>
                 <h1 className="text-2xl md:text-4xl md:py-1 font-headerTitle font-semibold">François Chevalier</h1>
@@ -64,7 +64,7 @@ const Accueil = () => {
                     </span>
                 </h2>
                 <div
-                    className="flex justify-evenly items-center w-full lg:w-1/2 rounded-2xl bg-gray-300 py-3 md:px-2 mt-3 mb-5">
+                    className="flex justify-evenly items-center w-full lg:w-1/2 rounded-2xl py-3 md:px-2 mt-3 mb-5">
                     {stackTechnique.map((techno, index) =>
                         <img className="h-[50px] md:h-[70px] w-auto object-cover" src={techno.img} alt={techno.name}
                              key={index}/>)}
@@ -76,7 +76,7 @@ const Accueil = () => {
                     </span>
                 </h2>
                 <div
-                    className="flex justify-evenly items-center w-full lg:w-1/2 rounded-2xl bg-gray-300 py-3 md:px-2 mt-3">
+                    className="flex justify-evenly items-center w-full lg:w-1/2 rounded-2xl py-3 md:px-2 mt-3">
                     {stackCreative.map((techno, index) =>
                         <img className="h-[50px] md:h-[70px] w-auto object-cover" src={techno.img} alt={techno.name}
                              key={index}/>)}
