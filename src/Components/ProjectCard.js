@@ -79,27 +79,28 @@ const ProjectCard = ({
                 <h2 className="pb-[5px] font-headerTitle">{name}</h2>
                 <p className="font-bodyFont2">{description}</p>
                 <br/>
-                <p style={{paddingBottom: "1em"}}>
+                <p className="font-bodyFont2" style={{paddingBottom: "1em"}}>
                     {api}
                     <br/>
                     <a href={apiUrl} rel="noopener noreferrer" target="_blank">
                         {apiUrl}
                     </a>
                 </p>
-                <h3>
+                <h3 className="font-bodyFont2 underline">
                     <a href={url} rel="noopener noreferrer" target="_blank">
                         Accès au projet
                     </a>
                 </h3>
                 {git ? (
-                    <h3>
-                        <a href={git} rel="noopener noreferrer" target="_blank">
-                            <img
-                                src={githublogo}
-                                alt="logo github"
-                                style={{width: "30px", height: "auto"}}
-                            />
+                    <h3 className="flex font-bodyFont2 underline">
+                        <a className="pr-1" href={git} rel="noopener noreferrer" target="_blank">
+                            Accès au repo
                         </a>
+                        <img
+                            src={githublogo}
+                            alt="logo github"
+                            style={{width: "30px", height: "auto"}}
+                        />
                     </h3>
                 ) : (
                     ""

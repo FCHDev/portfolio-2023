@@ -101,7 +101,7 @@ const Navbar = () => {
 
     let activeStyle = {
         fontWeight: "bold",
-        color: "#EAB309",
+        color: "#FFCB47",
     };
 
     return (

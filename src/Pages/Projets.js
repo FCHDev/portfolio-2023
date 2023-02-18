@@ -5,6 +5,7 @@ import iconLanding from "../Assets/SVG/landing.svg";
 import iconFeature from "../Assets/SVG/feature.svg";
 import iconEcommerce from "../Assets/SVG/online-store.svg";
 import ProjectCard from "../Components/ProjectCard";
+import ScrollToTopOnMount from "../Components/ScrollToTopOnMount";
 
 const Projets = () => {
     // STATES
@@ -110,6 +111,7 @@ const Projets = () => {
 
     return (
         <div className="min-h-[80vh] container mx-auto mt-[10vh] mb-[4vh] pt-5 animate-appear">
+            <ScrollToTopOnMount />
             <div className="flex justify-center">
                 <div className="form-check form-check-inline flex items-center">
                     <button

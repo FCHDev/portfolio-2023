@@ -14,6 +14,7 @@ import affiPhoto from "../Assets/Logos/affinityphoto.png";
 import affiDesigner from "../Assets/Logos/affinitydesigner.png";
 import arrowDown from "../Assets/SVG/down-arrow.svg";
 import Accordion from "../Components/Accordion";
+import ScrollToTopOnMount from "../Components/ScrollToTopOnMount";
 
 const Accueil = () => {
     const stackTechnique = [
@@ -36,6 +37,7 @@ const Accueil = () => {
     return (
         <div
             className="min-h-[80vh] lg:container flex flex-col items-center mx-auto mt-[11vh] pt-5 md:animate-appear px-4 md:px-0">
+            <ScrollToTopOnMount />
             <div className="h-[85vh] sm:h-max flex flex-col justify-center items-center">
                 {/*Photo de profil*/}
                 <ProfilPic/>
@@ -52,7 +54,7 @@ const Accueil = () => {
                 </div>
             </div>
 
-            <div id="tech" className="sm:hidden pt-5"></div>
+            <div id="tech" className="sm:hidden pt-10"></div>
 
             {/*Technos*/}
             <div
@@ -103,7 +105,7 @@ const Accueil = () => {
                     utilisateurs.
                 </p>
                 <p className="font-bodyFont2 md:text-lg">
-                    Je mets à profit ces <strong>compétences techniques</strong>,{" "}
+                    Aujourd'hui, je mets à profit ces <strong>compétences techniques</strong>,{" "}
                     <strong>projet</strong> et <strong>métier</strong> en conseillant et en
                     accompagnant au mieux mes clients.
                 </p>

@@ -21,7 +21,8 @@ module.exports = {
             colors: {
                 transparent: 'transparent',
                 current: 'currentColor',
-                'jaune': '#D9A408',
+                'jaune': '#FFCB47',
+                'jaune-dark': '#FFBA0A',
                 'bleu-vert': '#264653',
                 'clair': '#60D2C1',
                 'rose-rouge': '#F25F5C',
@@ -40,7 +41,7 @@ module.exports = {
     },
     plugins: [],
     safelist: [{
-        pattern: /(bg|text|border)-(jaune|bleu-vert|clair|rose-rouge|chocolat|celadon|ebony|silver-lake|anti-flash|gris|gris-clair|white|black|cadet)/
+        pattern: /(bg|text|border)-(jaune|jaune-dark|bleu-vert|clair|rose-rouge|chocolat|celadon|ebony|silver-lake|anti-flash|gris|gris-clair|white|black|cadet)/
     }
 
     ]

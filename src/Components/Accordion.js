@@ -14,7 +14,7 @@ const Accordion = () => {
                 <div className="p-5 font-light">
                     <p className="font-bodyFont2 md:text-lg">
                         J’ai choisi{" "}
-                        <span className="text-jaune font-bold">
+                        <span className="text-jaune bg-bleu-vert font-bold">
                     ReactJS
                     </span>{" "}
                         pour sa souplesse, sa robustesse et pour sa très vaste communauté de
@@ -35,7 +35,7 @@ const Accordion = () => {
                         Par ailleurs, j’accorde une attention toute particulière à
                         l’interface graphique (UI) et à l’expérience utilisateur (UX) y
                         étant associée. <br/> <br/>
-                        <span style={{fontWeight: "bold"}}>Ce que j’aime le plus</span> :
+                        <span className="font-bold text-silver-lake">Ce que j’aime le plus</span> :
                         les choses claires, précises, intuitives et dans le respect des
                         délais.
                     </p>
@@ -50,7 +50,7 @@ const Accordion = () => {
             content: (
                 <div className="p-5">
                     <p className="font-bodyFont2 md:text-lg">
-                        <strong className="text-jaune font-semibold">"Solutionniste"</strong>{" "}
+                        <strong className="text-silver-lake font-bold">"Solutionniste"</strong>{" "}
                         <span className="font-light italic text-sm">
                     (subst. et adj. (Celui, celle) qui cherche systématiquement une,
                     des solution(s) Source: CNRS).
@@ -59,7 +59,7 @@ const Accordion = () => {
                         solutions, c’est ma plus grande source de motivation.
                     </p><br/>
                     <p className="font-bodyFont2 md:text-lg">
-                        <strong className="text-jaune font-semibold">
+                        <strong className="text-silver-lake font-bold">
                             Excellent communiquant
                         </strong>{" "}<br/>
                         Je me mets aisément à la place de mon interlocuteur, ce qui me
@@ -69,18 +69,18 @@ const Accordion = () => {
                         projet.
                     </p><br/>
                     <p className="font-bodyFont2 md:text-lg">
-                        <strong className="text-jaune font-semibold">Curieux</strong><br/>
+                        <strong className="text-silver-lake font-bold">Curieux</strong><br/>
                         J’aime
                         comprendre les sujets en profondeur pour me les approprier, les
                         partager, et les utiliser à bon escient.
                     </p><br/>
                     <p className="font-bodyFont2 md:text-lg">
-                        <strong className="text-jaune font-semibold">Enjoué</strong><br/>
+                        <strong className="text-silver-lake font-bold">Enjoué</strong><br/>
                         Je vois la
                         vie de manière très positive et toujours avec le sourire.
                     </p><br/>
                     <p className="font-bodyFont2 md:text-lg">
-                        <strong className="text-jaune font-semibold">Vie personnelle</strong><br/>
+                        <strong className="text-silver-lake font-bold">Vie personnelle</strong><br/>
                         Passionné par les technologies quelqu’elles soient et "gamer" dans
                         l'âme, je suis également très sensible aux sujets liés à
                         l’environnement et au changement climatique. <br/>
