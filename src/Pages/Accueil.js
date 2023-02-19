@@ -53,10 +53,11 @@ const Accueil = () => {
                     </a>
                 </div>
             </div>
+            <div id="tech" className="mb-20 md:mb-0"></div>
 
             {/*Technos*/}
             <div
-                id="tech" className="w-full flex flex-col items-center px-2 py-3 mt-20 md:mt-10 2xl:mt-20 mb-10 border border-bleu-vert border-opacity-50 rounded-2xl bg-white">
+                className="w-full flex flex-col items-center px-2 py-3 md:mt-10 2xl:mt-20 mb-10 border border-bleu-vert border-opacity-50 rounded-2xl bg-white">
                 <h2 className="md:text-3xl text-2xl font-bold text-bleu-vert font-headerTitle">
                     Stack
                     <span className="text-jaune ml-2">
