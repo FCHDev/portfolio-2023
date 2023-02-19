@@ -54,7 +54,7 @@ const Accueil = () => {
                 </div>
             </div>
 
-            <div id="tech" className="sm:hidden pt-10"></div>
+            <div id="tech" className="sm:hidden pt-20"></div>
 
             {/*Technos*/}
             <div
