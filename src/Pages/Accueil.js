@@ -54,12 +54,12 @@ const Accueil = () => {
                 </div>
             </div>
 
-            <div id="tech" className="sm:hidden h-[5vh] w-full bg-bleu-vert mt-10"></div>
+            <div id="tech" className="sm:hidden h-[5vh] w-full mt-10"></div>
 
             {/*Technos*/}
             <div
                 id="tech"
-                className="w-full mt-32 flex flex-col items-center px-2 py-3 md:mt-10 2xl:mt-20 mb-10 border border-bleu-vert border-opacity-50 rounded-2xl bg-white">
+                className="w-full mt-16 flex flex-col items-center px-2 py-3 md:mt-10 2xl:mt-20 mb-10 border border-bleu-vert border-opacity-50 rounded-2xl bg-white">
                 <h2 className="md:text-3xl text-2xl font-bold text-bleu-vert font-headerTitle">
                     Stack
                     <span className="text-jaune ml-2">
