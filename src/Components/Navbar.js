@@ -1,7 +1,5 @@
 import React, {useState} from 'react';
 import {NavLink} from "react-router-dom";
-import ButtonContactPhone from "./ButtonContactPhone";
-import ButtonContactMail from "./ButtonContactMail";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -97,7 +95,7 @@ const Navbar = () => {
         {title: 'Tarifs', link: '/offre'},
         {title: 'Projets', link: '/projets'},
         {title: 'Contact', link: '/contact'}
-        ]
+    ]
 
     let activeStyle = {
         fontWeight: "bold",
@@ -141,23 +139,25 @@ const Navbar = () => {
                     pl-9 
                     transition-all duration-500 ease-in z-20 ${isOpen ? 'top-16 md:top-24 opacity-100' : 'top-[-490px]'}`}>
                 {menuItems.map((item, index) => (
-                    <div key={index}
-                         className="py-2 md:py-0 md:mx-8 md:text-white text-gray-700 transition ease-in-out lg:hover:-translate-y-1 lg:hover:scale-105 duration-300 font-headerTitle">
-                        <NavLink to={item.link}
-                                 style={({isActive}) => isActive ? activeStyle : undefined}
-                                 onClick={() => {
-                                     setIsOpen(false)
-                                 }}>
-                            {item.title}
-                        </NavLink>
-                    </div>))}
+                    <NavLink to={item.link}
+                             key={index}
+                             className="flex flex-col py-2 md:py-0 md:mx-8 md:text-white text-gray-700 transition ease-in-out lg:hover:-translate-y-1 lg:hover:scale-105 duration-300 font-headerTitle"
+                             style={({isActive}) => isActive ? activeStyle : undefined}
+                             onClick={() => {
+                                 setIsOpen(false)
+                             }}>
+                        {item.title}
+                    </NavLink>))}
             </div>
-            <div className="w-max flex sm:ml-0 ml-5 justify-center md:fixed
-            2xl:top-10 2xl:right-8
-            xl:top-4 xl:right-8">
-                <ButtonContactPhone/>
-                <div className="w-10"></div>
-                <ButtonContactMail/>
+            {/*<div className="hidden w-max sm:ml-0 ml-5 justify-center md:fixed*/}
+            {/*2xl:top-10 2xl:right-8*/}
+            {/*xl:top-4 xl:right-8">*/}
+            {/*    <ButtonContactPhone/>*/}
+            {/*    <div className="w-10"></div>*/}
+            {/*    <ButtonContactMail/>*/}
+            {/*</div>*/}
+            <div className="w-full flex justify-end mr-24 text-jaune sm:hidden font-headerTitle text-2xl ml-40">
+                <span>Menu</span>
             </div>
 
         </div>

@@ -5,7 +5,7 @@ import ScrollToTopOnMount from "../Components/ScrollToTopOnMount";
 const Services = () => {
 
     return (
-        <div className="min-h-[80vh] container flex justify-center items-center mx-auto mt-[10vh] mb-[4vh] pt-5 animate-appear">
+        <div className="min-h-[80vh] container flex justify-center items-center mx-auto mt-[10vh] mb-[4vh] md:pt-5 animate-appear">
             <ScrollToTopOnMount />
             <section className="bg-white rounded-xl md:px-16">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl lg:px-6">
