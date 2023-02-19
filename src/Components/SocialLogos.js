@@ -25,7 +25,7 @@ const SocialLogos = () => {
                 <img
                     src={malt}
                     alt="malt françois chevalier développeur React"
-                className="h-[45px] md:h-[50px] w-auto"/>
+                    className="h-[55px] md:h-[50px] w-auto"/>
             </NavLink>
 
         </div>
