@@ -53,7 +53,7 @@ const Accueil = () => {
                     </a>
                 </div>
             </div>
-            <div id="tech" className="mb-20 md:mb-0"></div>
+            <div id="tech" className="mt-20 md:mb-0"></div>
 
             {/*Technos*/}
             <div
