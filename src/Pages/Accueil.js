@@ -53,7 +53,8 @@ const Accueil = () => {
                     </a>
                 </div>
             </div>
-            <div id="tech"></div>
+
+            <div id="tech" className="sm:hidden h-[5vh] w-full bg-bleu-vert mt-10"></div>
 
             {/*Technos*/}
             <div
