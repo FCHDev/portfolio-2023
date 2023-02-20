@@ -50,7 +50,7 @@ const Offre = () => {
                             Une offre de services claire pour vos
                             projets personnalisés
                         </h2>
-                        <p className="mb-5 font-light text-gray-500 sm:text-xl">Découvrez mes offres <span className="text-jaune bg-bleu-vert font-bold px-1 text-2xl">au forfait</span> ou <span className="bg-jaune text-bleu-vert font-bold px-1 text-2xl">en régie</span>et trouvez la solution qui convient le mieux à
+                        <p className="mb-5 font-light text-gray-500 sm:text-xl">Découvrez mes offres <span className="text-jaune bg-bleu-vert font-bold text-xl sm:text-2xl">au forfait</span> ou <span className="bg-jaune text-bleu-vert font-bold text-xl sm:text-2xl">en régie</span> et trouvez la solution qui convient le mieux à
                             votre entreprise et à votre budget.</p>
                     </div>
 
