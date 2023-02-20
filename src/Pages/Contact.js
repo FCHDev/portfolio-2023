@@ -106,7 +106,7 @@ const Contact = () => {
                         <div className="sm:col-span-2">
                             <label htmlFor="message"
                                    className="block mb-2 text-base font-bold font-bodyFont2 text-gray-900">
-                                Détaillez votre projet
+                                Détaillez votre projet*
                             </label>
                             <textarea id="message" rows="6"
                                       className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 font-bodyFont2"
