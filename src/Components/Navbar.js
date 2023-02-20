@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {NavLink} from "react-router-dom";
+import monLogo from "../Assets/Logos/KDLogoFull-white-small.png";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -109,6 +110,9 @@ const Navbar = () => {
                 {isOpen ? closeBurger : <div className="w-full flex justify-end text-jaune lg:hidden font-headerTitle text-3xl">
                     <span>Menu</span>
                 </div> }
+            </div>
+            <div className="absolute sm:hidden">
+                <img className="h-[65px] w-auto ml-5" src={monLogo} alt="écran d'ordinateur en logo avec le nom Knight and Dev écrit en-dessous"/>
             </div>
             <div className={`
                     lg:w-4/6 
