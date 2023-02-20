@@ -4,7 +4,7 @@ import siteBali from "../Assets/Images/mockup_bali.png";
 import appCountries from "../Assets/Images/mockup_countries.png";
 import sliderPhotos from "../Assets/Images/sliderPhotos.png";
 import multiLangues from "../Assets/Images/multi-languages.png";
-import chrono from "../Assets/Images/mockup_chrono.png";
+import chrono from "../Assets/Images/mockup_chrono.jpg";
 import agency from "../Assets/Images/mockup_webagency.png";
 import guitarists from "../Assets/Images/mockup_guitarists.png";
 import dailygreen from "../Assets/Images/mockup_dailygreen.png";
