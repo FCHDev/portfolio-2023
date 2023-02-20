@@ -20,21 +20,16 @@ const Accordion = () => {
                         pour sa souplesse, sa robustesse et pour sa très vaste communauté de
                         développeuses et développeurs.
                     </p><br/>
+
                     <p className="font-bodyFont2 md:text-lg">
-                        Je mets à profit ces <strong>compétences techniques</strong>,{" "}
-                        <strong>projet</strong> et <strong>métier</strong> en conseillant et en
-                        accompagnant au mieux mes clients.
-                    </p><br/>
-                    <p className="font-bodyFont2 md:text-lg">
-                        Autodidacte dans l’âme, je maîtrise aujourd’hui une stack technique
+                        Autodidacte dans l’âme, je maîtrise une stack technique
                         moderne (cf ci-dessus) me permettant de pouvoir réaliser en toute
                         autonomie, les projets de sites ou d’applications web que vous
                         souhaitez réaliser.
                     </p><br/>
                     <p className="font-bodyFont2 md:text-lg">
                         Par ailleurs, j’accorde une attention toute particulière à
-                        l’interface graphique (UI) et à l’expérience utilisateur (UX) y
-                        étant associée. <br/> <br/>
+                        l’interface graphique (UI) et à l’expérience utilisateur (UX). <br/> <br/>
                         <span className="font-bold text-silver-lake">Ce que j’aime le plus</span> :
                         les choses claires, précises, intuitives et dans le respect des
                         délais.
@@ -81,8 +76,7 @@ const Accordion = () => {
                     </p><br/>
                     <p className="font-bodyFont2 md:text-lg">
                         <strong className="text-silver-lake font-bold">Vie personnelle</strong><br/>
-                        Passionné par les technologies quelqu’elles soient et "gamer" dans
-                        l'âme, je suis également très sensible aux sujets liés à
+                        Passionné par les technologies quelqu’elles soient et "gamer" invétéré, je suis également très sensible aux sujets liés à
                         l’environnement et au changement climatique. <br/>
                         J'aime pratiquer régulièrement le tennis, la guitare ou le piano.
                         Enfin, quand je ne suis pas devant un écran d'ordinateur, j’aime

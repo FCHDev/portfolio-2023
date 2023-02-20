@@ -5,49 +5,49 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     // SVG LOGOS
-    const menuBurger =
-        <svg version="1.1" id="Capa_1"
-             xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-             viewBox="0 0 50 50"
-             fill="#D9A408"
-             xmlSpace="preserve">
-            <g>
-                <rect y="3" width="50" height="2"/>
-                <rect y="17" width="50" height="2"/>
-                <rect y="31" width="50" height="2"/>
-                <rect y="45" width="50" height="2"/>
-            </g>
-            <g>
-            </g>
-            <g>
-            </g>
-            <g>
-            </g>
-            <g>
-            </g>
-            <g>
-            </g>
-            <g>
-            </g>
-            <g>
-            </g>
-            <g>
-            </g>
-            <g>
-            </g>
-            <g>
-            </g>
-            <g>
-            </g>
-            <g>
-            </g>
-            <g>
-            </g>
-            <g>
-            </g>
-            <g>
-            </g>
-        </svg>
+    // const menuBurger =
+    //     <svg version="1.1" id="Capa_1"
+    //          xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    //          viewBox="0 0 50 50"
+    //          fill="#D9A408"
+    //          xmlSpace="preserve">
+    //         <g>
+    //             <rect y="3" width="50" height="2"/>
+    //             <rect y="17" width="50" height="2"/>
+    //             <rect y="31" width="50" height="2"/>
+    //             <rect y="45" width="50" height="2"/>
+    //         </g>
+    //         <g>
+    //         </g>
+    //         <g>
+    //         </g>
+    //         <g>
+    //         </g>
+    //         <g>
+    //         </g>
+    //         <g>
+    //         </g>
+    //         <g>
+    //         </g>
+    //         <g>
+    //         </g>
+    //         <g>
+    //         </g>
+    //         <g>
+    //         </g>
+    //         <g>
+    //         </g>
+    //         <g>
+    //         </g>
+    //         <g>
+    //         </g>
+    //         <g>
+    //         </g>
+    //         <g>
+    //         </g>
+    //         <g>
+    //         </g>
+    //     </svg>
 
     const closeBurger = <svg version="1.1" id="Layer_1"
                              xmlns="http://www.w3.org/2000/svg"
@@ -106,7 +106,9 @@ const Navbar = () => {
         <div className="fixed flex sm:justify-center items-center bg-bleu-vert top-0 w-full h-[10vh] shadow-lg z-20">
             <div onClick={() => setIsOpen(!isOpen)}
                  className="text-3xl w-8 absolute right-8 top-5 md:top-10 cursor-pointer lg:hidden z-20">
-                {isOpen ? closeBurger : menuBurger}
+                {isOpen ? closeBurger : <div className="w-full flex justify-end text-jaune lg:hidden font-headerTitle text-3xl">
+                    <span>Menu</span>
+                </div> }
             </div>
             <div className={`
                     lg:w-4/6 
@@ -124,7 +126,7 @@ const Navbar = () => {
                     2xl:text-3xl
                     md:w-full
                     md:pb-9
-                    md:bg-transparent
+                    lg:bg-transparent
                     w-full
                     text-2xl 
                     justify-center
@@ -137,11 +139,11 @@ const Navbar = () => {
                     rounded-2xl
                     left-0
                     pl-9 
-                    transition-all duration-500 ease-in z-20 ${isOpen ? 'top-16 md:top-24 opacity-100' : 'top-[-490px]'}`}>
+                    transition-all duration-500 ease-in z-20 ${isOpen ? 'top-16 md:top-20 opacity-100' : 'top-[-490px]'}`}>
                 {menuItems.map((item, index) => (
                     <NavLink to={item.link}
                              key={index}
-                             className="flex flex-col py-2 md:py-0 md:mx-8 md:text-white text-gray-700 transition ease-in-out lg:hover:-translate-y-1 lg:hover:scale-105 duration-300 font-headerTitle"
+                             className="flex flex-col py-2 md:py-0 md:mx-8 lg:text-white text-gray-700 transition ease-in-out lg:hover:-translate-y-1 lg:hover:scale-105 duration-300 font-headerTitle"
                              style={({isActive}) => isActive ? activeStyle : undefined}
                              onClick={() => {
                                  setIsOpen(false)
@@ -156,9 +158,9 @@ const Navbar = () => {
             {/*    <div className="w-10"></div>*/}
             {/*    <ButtonContactMail/>*/}
             {/*</div>*/}
-            <div className="w-full flex justify-end mr-24 text-jaune sm:hidden font-headerTitle text-2xl ml-40">
-                <span>Menu</span>
-            </div>
+            {/*<div className="w-full flex justify-end mr-24 text-jaune sm:hidden font-headerTitle text-2xl ml-40">*/}
+            {/*    <span>Menu</span>*/}
+            {/*</div>*/}
 
         </div>
     );

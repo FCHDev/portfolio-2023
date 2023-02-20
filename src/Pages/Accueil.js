@@ -58,8 +58,7 @@ const Accueil = () => {
 
             {/*Technos*/}
             <div
-                id="tech"
-                className="w-full mt-16 flex flex-col items-center px-2 py-3 md:mt-10 2xl:mt-20 mb-10 border border-bleu-vert border-opacity-50 rounded-2xl bg-white">
+                className="w-full mt-16 md:mt-5 2xl:mt-10 flex flex-col items-center px-2 py-3 mb-10 border border-bleu-vert border-opacity-50 rounded-2xl bg-white">
                 <h2 className="md:text-3xl text-2xl font-bold text-bleu-vert font-headerTitle">
                     Stack
                     <span className="text-jaune ml-2">
@@ -69,8 +68,12 @@ const Accueil = () => {
                 <div
                     className="flex justify-evenly items-center w-full lg:w-1/2 rounded-2xl py-3 md:px-2 mt-3 mb-5">
                     {stackTechnique.map((techno, index) =>
-                        <img className="h-[50px] md:h-[70px] w-auto object-cover" src={techno.img} alt={techno.name}
-                             key={index}/>)}
+                        <div key={index} className="flex flex-col justify-center items-center">
+                            <img className="h-[50px] md:h-[70px] w-auto object-cover" src={techno.img} alt={techno.name}
+                                 key={index}/>
+                            <p className="hidden sm:block text-center text-xs md:text-sm font-bodyFont2 pt-1">{techno.name}</p>
+                        </div>
+                    )}
                 </div>
                 <h2 className="md:text-3xl text-2xl font-bold text-bleu-vert font-headerTitle">
                     Stack
@@ -81,8 +84,12 @@ const Accueil = () => {
                 <div
                     className="flex justify-evenly items-center w-full lg:w-1/2 rounded-2xl py-3 md:px-2 mt-3">
                     {stackCreative.map((techno, index) =>
-                        <img className="h-[50px] md:h-[70px] w-auto object-cover" src={techno.img} alt={techno.name}
-                             key={index}/>)}
+                        <div key={index} className="flex flex-col justify-center items-center">
+                            <img className="h-[50px] md:h-[70px] w-auto object-cover" src={techno.img} alt={techno.name}
+                                 key={index}/>
+                            <p className="hidden sm:block text-center text-xs md:text-sm font-bodyFont2 pt-1">{techno.name}</p>
+                        </div>
+                    )}
                 </div>
             </div>
 
@@ -102,18 +109,18 @@ const Accueil = () => {
                     <span style={{fontWeight: "bold"}}>
                     stratégies digitales et commerciales
                     </span>{" "}
-                    afin de les aider à développer leur CA et améliorer leurs expériences
+                    afin de développer leur CA et améliorer leurs expériences
                     utilisateurs.
                 </p>
                 <p className="font-bodyFont2 md:text-lg">
-                    Aujourd'hui, je mets à profit ces <strong>compétences techniques</strong>,{" "}
+                    Je mets à profit ces <strong>compétences techniques</strong>,{" "}
                     <strong>projet</strong> et <strong>métier</strong> en conseillant et en
                     accompagnant au mieux mes clients.
                 </p>
             </div>
 
             {/*Lire la suite...*/}
-            <div className="w-full flex flex-col items-center sm:items-start md:px-2 md:px-10 my-5">
+            <div className="w-full flex flex-col items-center sm:items-start md:px-2 md:px-10 my-5 lg:mb-10">
                 <h2 className="md:text-3xl text-2xl font-bold text-bleu-vert font-headerTitle pb-5">
                     Plus en détails...
                 </h2>

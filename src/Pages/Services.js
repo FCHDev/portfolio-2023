@@ -6,9 +6,9 @@ const Services = () => {
 
     return (
         <div
-            className="min-h-[80vh] container flex justify-center items-center mx-auto mt-[10vh] mb-[4vh] md:pt-5 animate-appear">
+            className="min-h-[80vh] container flex justify-center items-center mx-auto mt-[10vh] sm:mb-[4vh] md:pt-5 animate-appear">
             <ScrollToTopOnMount/>
-            <section className="bg-white rounded-xl md:px-16">
+            <section className="bg-white rounded-xl 2xl:py-20 md:px-16">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl lg:px-6">
                     <div className="max-w-screen-md mb-8">
                         <h2 className="mb-4 text-4xl tracking-tight font-bodyFont2 text-bleu-vert font-extrabold">

@@ -4,7 +4,7 @@ import ScrollToTopOnMount from "../Components/ScrollToTopOnMount";
 
 const Contact = () => {
     return (
-        <div className="min-h-[80vh] container flex justify-center items-center mx-auto mt-[10vh] mb-[4vh] md:pt-5 animate-appear">
+        <div className="min-h-[80vh] container flex justify-center items-center mx-auto mt-[10vh] sm:mb-[4vh] md:pt-5 animate-appear">
             <ScrollToTopOnMount />
             <section className="bg-white rounded-xl md:px-16">
                 <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
@@ -48,7 +48,7 @@ const Contact = () => {
                                       placeholder="Expliquez-moi ce que vous souhaitez réaliser..."></textarea>
                         </div>
                         <button type="submit"
-                                className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-bleu-vert sm:w-fit hover:bg-clair focus:ring-4 focus:outline-none focus:ring-primary-300 font-bodyFont2">
+                                className="py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-bleu-vert sm:w-fit hover:bg-clair focus:ring-4 focus:outline-none focus:ring-primary-300 font-bodyFont2">
                             Envoyer
                         </button>
                     </form>
