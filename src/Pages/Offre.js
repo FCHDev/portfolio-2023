@@ -109,7 +109,7 @@ const Offre = () => {
                             <h3 className="mb-2 text-2xl font-bold text-bleu-vert font-bodyFont2">
                                 Taux journalier
                             </h3>
-                            <p className="font-light text-gray-200 sm:text-lg font-bodyFont2">
+                            <p className="font-light text-gray-500 sm:text-lg font-bodyFont2">
                                 Remote ou sur site
                             </p>
                             <div className="flex flex-col justify-center items-center my-8">
@@ -121,7 +121,7 @@ const Offre = () => {
                         </div>
 
                         <NavLink to="/contact"
-                                 className="text-jaune bg-bleu-vert font-bodyFont2 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-semibold rounded-lg text-lg sm:text-base px-5 py-4 sm:py-2.5 text-center w-2/3 mx-auto">
+                                 className="text-jaune bg-bleu-vert font-bodyFont2 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-semibold rounded-lg text-lg sm:text-base px-5 py-4 sm:py-2.5 text-center w-full sm:w-2/3 mx-auto">
                             C'est parti !
                         </NavLink>
                     </div>
