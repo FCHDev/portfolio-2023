@@ -5,6 +5,7 @@ import {NavLink} from "react-router-dom";
 
 const ProjectCard = ({
                          name,
+                         id,
                          url,
                          cover,
                          description,
@@ -87,9 +88,9 @@ const ProjectCard = ({
                 <p className="font-bodyFont2">{description}</p>
                 <br/>
                 {professional
-                    ? <NavLink to="/projet-detail">
+                    ? <NavLink to={`/projet-detail/${id}`}>
                     <span className={`${textColor} text-2xl`}>
-                        Voir details
+                        Voir fiche projet
                     </span><br/>
                     </NavLink>
                     : null}

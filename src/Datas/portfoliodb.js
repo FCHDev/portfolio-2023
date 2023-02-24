@@ -10,6 +10,7 @@ import guitarists from "../Assets/Images/mockup_guitarists.png";
 import dailygreen from "../Assets/Images/mockup_dailygreen.png";
 import artwork from "../Assets/Images/mockup_artwork.jpg";
 import alternativo from "../Assets/Images/mockup_alternativo.png";
+import alternativoLogo from "../Assets/Images/logo-alternativo.png"
 import audioPlayer from "../Assets/Images/mockup_audioPlayer.png";
 
 
@@ -25,7 +26,7 @@ export const portfoliodb = [
     {
         name: "Cooking",
         author: "François Chevalier",
-        id: "04",
+        id: 4,
         type: "Site App",
         color: "bg-rose-rouge",
         textColor: "text-rose-rouge",
@@ -45,7 +46,7 @@ export const portfoliodb = [
     {
         name: "Tourisme à Bali",
         author: "François Chevalier",
-        id: "05",
+        id: 5,
         type: "Site / Landing",
         color: "bg-jaune",
         textColor: "text-jaune",
@@ -64,7 +65,7 @@ export const portfoliodb = [
     {
         name: "Countries Flags",
         author: "François Chevalier",
-        id: "06",
+        id: 6,
         type: "Site App",
         color: "bg-rose-rouge",
         textColor: "text-rose-rouge",
@@ -85,7 +86,7 @@ export const portfoliodb = [
     {
         name: "Slider Photos",
         author: "François Chevalier",
-        id: "31",
+        id: 31,
         type: "Feature",
         color: "bg-chocolat",
         textColor: "text-chocolat",
@@ -103,7 +104,7 @@ export const portfoliodb = [
     {
         name: "Multi-langues",
         author: "François Chevalier",
-        id: "32",
+        id: 32,
         type: "Feature",
         color: "bg-chocolat",
         textColor: "text-chocolat",
@@ -121,7 +122,7 @@ export const portfoliodb = [
     {
         name: "Classic Pomodoro",
         author: "François Chevalier",
-        id: "07",
+        id: 7,
         type: "Site App",
         color: "bg-rose-rouge",
         textColor: "text-rose-rouge",
@@ -139,7 +140,7 @@ export const portfoliodb = [
     {
         name: "FCH Agency",
         author: "François Chevalier",
-        id: "03",
+        id: 9,
         type: "Site / Landing",
         color: "bg-jaune",
         textColor: "text-jaune",
@@ -158,7 +159,7 @@ export const portfoliodb = [
     {
         name: "DailyGreen",
         author: "François Chevalier",
-        id: "12",
+        id: 8,
         type: "e-commerce",
         color: "bg-bleu-vert",
         textColor: "text-bleu-vert",
@@ -178,7 +179,7 @@ export const portfoliodb = [
     {
         name: "guitarists_",
         author: "François Chevalier",
-        id: "01",
+        id: 1,
         type: "Site App",
         color: "bg-rose-rouge",
         textColor: "text-rose-rouge",
@@ -197,7 +198,7 @@ export const portfoliodb = [
     {
         name: "My Artworks Gallery",
         author: "François Chevalier",
-        id: "00",
+        id: 0,
         type: "Site App",
         color: "bg-rose-rouge",
         textColor: "text-rose-rouge",
@@ -216,28 +217,29 @@ export const portfoliodb = [
     {
         name: "Alternativo",
         author: "François Chevalier",
-        id: "35",
-        type: "Site App",
-        color: "bg-rose-rouge",
-        textColor: "text-rose-rouge",
+        id: 2,
+        type: "Site / Landing",
+        color: "bg-jaune",
+        textColor: "text-jaune",
         year: "2023",
         url: "https://my-ai-art.netlify.app/",
         git: "https://github.com/FCHDev/ai-art-browser",
         cover: alternativo,
-        tools: ["React-JS"],
+        logo: alternativoLogo,
+        tools: ["Next-JS", "Firebase", "TailwindCSS"],
         toolsLogo: react,
         toolsLogo2: firebase,
         language: "Fr",
         professional: true,
-        detailsUrl: "https://www.google.com",
-        description:
-            "Gallerie d'images réalisées avec MidJourney. Authentification via Firebase. Possibilité de trier les images, et/ou de les ajouter à son espace 'Favoris' privatif. Un CMS (pour Admin) est disponible pour l'ajout de nouvelles images. MISE À JOUR HEBDOMADAIRE.",
+        description: "Un joli projet de landing page pour une toute jeune entreprise du Sud-Ouest spécialisée dans le conseil en gestion de patrimoine.",
+        projectDescription:["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas."],
+        testimony: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas."],
         api: "API utilisée : Google Firebase",
     },
     {
         name: "Audio player",
         author: "François Chevalier",
-        id: "02",
+        id: 3,
         type: "Site App",
         color: "bg-rose-rouge",
         textColor: "text-rose-rouge",

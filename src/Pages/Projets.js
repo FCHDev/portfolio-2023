@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from "react";
-import {portfoliodb} from "../Datas/portfoliodb";
 import iconApp from "../Assets/SVG/application.svg";
 import iconLanding from "../Assets/SVG/landing.svg";
 import iconFeature from "../Assets/SVG/feature.svg";
@@ -7,12 +6,12 @@ import iconEcommerce from "../Assets/SVG/online-store.svg";
 import ProjectCard from "../Components/ProjectCard";
 import ScrollToTopOnMount from "../Components/ScrollToTopOnMount";
 
-const Projets = () => {
+const Projets = ({mesProjets}) => {
     // STATES
     const [selectedRadio, setSelectedRadio] = useState("");
 
     // TRI PAR DÉFAUT DU PORTFOLIO
-    portfoliodb.sort(function (a, b) {
+    mesProjets.sort(function (a, b) {
         return -(b.id - a.id)
     });
 
@@ -55,7 +54,7 @@ const Projets = () => {
     // AFFICHAGE DES CARTES
     const display =
         <div className="playground xl:mt-10 2xl:mt-20">
-            {portfoliodb
+            {mesProjets
                 .filter((item) => item.type.includes(selectedRadio))
                 .map(
                     ({
@@ -77,7 +76,7 @@ const Projets = () => {
                          professional
                      }) => (
                         <ProjectCard
-                            key={id}
+                            id={id}
                             cover={cover}
                             type={type}
                             color={color}
@@ -93,6 +92,7 @@ const Projets = () => {
                             toolsLogo3={toolsLogo3}
                             toolsLogo4={toolsLogo4}
                             professional={professional}
+                            key={id}
                         />
                     )
                 )}
@@ -100,10 +100,10 @@ const Projets = () => {
 
 
     useEffect(() => {
-        portfoliodb.sort(function (a, b) {
+        mesProjets.sort(function (a, b) {
             return -(a.id - b.id);
         });
-    }, [])
+    }, [mesProjets])
 
     const handleReset = (e) => {
         e.preventDefault();
