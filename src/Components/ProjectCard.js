@@ -75,7 +75,7 @@ const ProjectCard = ({
             <div className={`category ${color}`}>
                 {type}
             </div>
-            <div className="tools-logo">
+            <div className={`${toolsLogo ? "tools-logo" : "hidden" }`}>
                 <img src={toolsLogo} alt="logo technologie utilisée"/>
                 {logo2}
                 {logo3}

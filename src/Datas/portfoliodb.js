@@ -11,6 +11,8 @@ import dailygreen from "../Assets/Images/mockup_dailygreen.png";
 import artwork from "../Assets/Images/mockup_artwork.jpg";
 import alternativo from "../Assets/Images/mockup_alternativo.png";
 import alternativoLogo from "../Assets/Images/logo-alternativo.png"
+import mysteries from "../Assets/Images/mockup_mysteries.png"
+import mysteriesLogo from "../Assets/Images/logo-mysteries.webp"
 import audioPlayer from "../Assets/Images/mockup_audioPlayer.png";
 
 
@@ -26,7 +28,7 @@ export const portfoliodb = [
     {
         name: "Cooking",
         author: "François Chevalier",
-        id: 4,
+        id: 10,
         type: "Site App",
         color: "bg-rose-rouge",
         textColor: "text-rose-rouge",
@@ -235,6 +237,24 @@ export const portfoliodb = [
         projectDescription:["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas."],
         testimony: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas."],
         api: "API utilisée : Google Firebase",
+    },
+    {
+        name: "Mysteries Hunt",
+        author: "François Chevalier",
+        id: 4,
+        type: "SEO",
+        color: "bg-silver-lake",
+        textColor: "text-silver-lake",
+        year: "2023",
+        url: "https://www.mysteries-hunt.com/",
+        cover: mysteries,
+        logo: mysteriesLogo,
+        tools: ["Google Analytics", "Google Search Console"],
+        language: "Fr",
+        professional: true,
+        description: "Optimisation du référencement naturel pour le site Mysteries Hunt, spécialiste du Team building et des Enquêtes historiques à Versailles ou Paris.",
+        projectDescription:["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas."],
+        testimony: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas."],
     },
     {
         name: "Audio player",
