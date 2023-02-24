@@ -74,6 +74,7 @@ const Projets = () => {
                          toolsLogo2,
                          toolsLogo3,
                          toolsLogo4,
+                         professional
                      }) => (
                         <ProjectCard
                             key={id}
@@ -91,6 +92,7 @@ const Projets = () => {
                             toolsLogo2={toolsLogo2}
                             toolsLogo3={toolsLogo3}
                             toolsLogo4={toolsLogo4}
+                            professional={professional}
                         />
                     )
                 )}

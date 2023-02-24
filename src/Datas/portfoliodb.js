@@ -8,6 +8,10 @@ import chrono from "../Assets/Images/mockup_chrono.jpg";
 import agency from "../Assets/Images/mockup_webagency.png";
 import guitarists from "../Assets/Images/mockup_guitarists.png";
 import dailygreen from "../Assets/Images/mockup_dailygreen.png";
+import artwork from "../Assets/Images/mockup_artwork.jpg";
+import alternativo from "../Assets/Images/mockup_alternativo.png";
+import audioPlayer from "../Assets/Images/mockup_audioPlayer.png";
+
 
 // LOGOS
 import html from "../Assets/Logos/html.png";
@@ -21,7 +25,7 @@ export const portfoliodb = [
     {
         name: "Cooking",
         author: "François Chevalier",
-        id: "03",
+        id: "04",
         type: "Site App",
         color: "bg-rose-rouge",
         textColor: "text-rose-rouge",
@@ -135,7 +139,7 @@ export const portfoliodb = [
     {
         name: "FCH Agency",
         author: "François Chevalier",
-        id: "02",
+        id: "03",
         type: "Site / Landing",
         color: "bg-jaune",
         textColor: "text-jaune",
@@ -154,7 +158,7 @@ export const portfoliodb = [
     {
         name: "DailyGreen",
         author: "François Chevalier",
-        id: "00",
+        id: "12",
         type: "e-commerce",
         color: "bg-bleu-vert",
         textColor: "text-bleu-vert",
@@ -189,5 +193,64 @@ export const portfoliodb = [
         description:
             "Base de données francophone que j'ai conçue et hébergée via Firebase. L'objectif est de donner accès à un catalogue croissant de guitaristes légendaires, et de proposer une visualisation de leur Bio en Fr. Le tout dans une interface simple et conviviale.",
         api: "API utilisée : Google Firebase",
+    },
+    {
+        name: "My Artworks Gallery",
+        author: "François Chevalier",
+        id: "00",
+        type: "Site App",
+        color: "bg-rose-rouge",
+        textColor: "text-rose-rouge",
+        year: "2023",
+        url: "https://my-ai-art.netlify.app/",
+        git: "https://github.com/FCHDev/ai-art-browser",
+        cover: artwork,
+        tools: ["React-JS"],
+        toolsLogo: react,
+        toolsLogo2: firebase,
+        language: "Fr",
+        description:
+            "Gallerie d'images réalisées avec MidJourney. Authentification via Firebase. Possibilité de trier les images, et/ou de les ajouter à son espace 'Favoris' privatif. Un CMS (pour Admin) est disponible pour l'ajout de nouvelles images. MISE À JOUR HEBDOMADAIRE.",
+        api: "API utilisée : Google Firebase",
+    },
+    {
+        name: "Alternativo",
+        author: "François Chevalier",
+        id: "35",
+        type: "Site App",
+        color: "bg-rose-rouge",
+        textColor: "text-rose-rouge",
+        year: "2023",
+        url: "https://my-ai-art.netlify.app/",
+        git: "https://github.com/FCHDev/ai-art-browser",
+        cover: alternativo,
+        tools: ["React-JS"],
+        toolsLogo: react,
+        toolsLogo2: firebase,
+        language: "Fr",
+        professional: true,
+        detailsUrl: "https://www.google.com",
+        description:
+            "Gallerie d'images réalisées avec MidJourney. Authentification via Firebase. Possibilité de trier les images, et/ou de les ajouter à son espace 'Favoris' privatif. Un CMS (pour Admin) est disponible pour l'ajout de nouvelles images. MISE À JOUR HEBDOMADAIRE.",
+        api: "API utilisée : Google Firebase",
+    },
+    {
+        name: "Audio player",
+        author: "François Chevalier",
+        id: "02",
+        type: "Site App",
+        color: "bg-rose-rouge",
+        textColor: "text-rose-rouge",
+        year: "2022",
+        url: "https://audio-player-react.netlify.app/",
+        git: "https://github.com/FCHDev/ai-art-browser",
+        cover: audioPlayer,
+        tools: ["React-JS"],
+        toolsLogo: react,
+        language: "Fr",
+        professional: false,
+        detailsUrl: "https://www.google.com",
+        description:
+            "Le lecteur audio designé pour le mobile en priorité. Contient un peu plus d'une dizaine de titres. Gestion de la lecture, de la pause, du volume, de la progression de la lecture, de la sélection de la piste.",
     },
 ];

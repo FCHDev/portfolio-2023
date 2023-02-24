@@ -44,7 +44,6 @@ body {
   transition: 0.3s;
   margin: 15px;
   padding: 0.5em;
-  background-color: whitesmoke;
   list-style: none;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
