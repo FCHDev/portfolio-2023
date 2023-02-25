@@ -6,7 +6,7 @@ const ProjetPage = ({mesProjets}) => {
     const { id } = useParams();
     const [monProjet, setMonProjet] = useState();
 
-    console.log(monProjet)
+    // console.log(monProjet)
 
     useEffect(() => {
         setMonProjet(mesProjets.find((item) => item.id === parseInt(id)))
@@ -14,14 +14,14 @@ const ProjetPage = ({mesProjets}) => {
 
     return (
         <div
-            className="min-h-[80vh] container flex flex-col items-center mx-auto mt-[10vh] sm:mb-[4vh] 2xl:mb-0 2xl:pt-0 animate-appear">
+            className="min-h-[80vh] container flex flex-col items-center mx-auto mt-[10vh] sm:mb-[4vh] 2xl:mb-0 2xl:pt-0 animate-appear bg-white">
             <ScrollToTopOnMount/>
 
             <div className="h-[10vh] w-full flex py-2">
-                <div className="bg-white w-1/5 flex justify-center items-center px-2 rounded-xl">
+                <div className="bg-white md:w-1/5 w-1/3 flex justify-center items-center px-2 rounded-xl">
                     <img src={monProjet?.logo} alt="logo"/>
                 </div>
-                <div className="w-4/5 flex items-center justify-center text-3xl font-headerTitle">
+                <div className="md:w-4/5 w-2/3 flex items-center justify-center text-3xl font-headerTitle">
                     {monProjet?.name}
                 </div>
             </div>

@@ -26,7 +26,6 @@ const Offre = () => {
             price: 900,
             features: ['Recherche et définition des intentions de recherche', 'Optimisations on-page', 'Création de contenu de qualité', 'Création de backlinks', 'Suivi et analyse des résultats / Livrables']
         },
-        // {title: 'Régie', level: 'Prestation au TJM', ssTitle: 'Remote ou "sur site"', price: 450, features: ['Communication avec le client', "Développement et gestion du code", "Collaboration avec l'équipe en place", 'Respect des délais et du budget', 'Suivi et reporting / Livrables']},
     ]
 
     const options = {
