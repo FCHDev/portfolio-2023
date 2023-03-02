@@ -107,12 +107,16 @@ const Navbar = () => {
         <div className="fixed flex sm:justify-center items-center bg-bleu-vert top-0 w-full h-[10vh] shadow-lg z-20">
             <div onClick={() => setIsOpen(!isOpen)}
                  className="text-3xl w-8 absolute right-8 top-5 md:top-10 cursor-pointer lg:hidden z-20">
-                {isOpen ? closeBurger : <div className="w-full flex justify-end text-jaune lg:hidden font-headerTitle text-3xl">
-                    <span>Menu</span>
-                </div> }
+                {isOpen ? closeBurger :
+                    <div className="w-full flex justify-end text-jaune lg:hidden font-headerTitle text-3xl">
+                        <span>Menu</span>
+                    </div>}
             </div>
             <div className="absolute sm:hidden">
-                <img className="h-[65px] w-auto ml-5" src={monLogo} alt="écran d'ordinateur en logo avec le nom Knight and Dev écrit en-dessous"/>
+                <NavLink to={'/'}>
+                    <img className="h-[65px] w-auto ml-5" src={monLogo}
+                         alt="écran d'ordinateur en logo avec le nom Knight and Dev écrit en-dessous"/>
+                </NavLink>
             </div>
             <div className={`
                     lg:w-4/6 

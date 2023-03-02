@@ -41,7 +41,7 @@ const ProjetPage = ({mesProjets}) => {
                 </div>
             </div>
             <div className="min-h-[30vh] font-bodyFont2 w-full flex flex-col justify-center px-3 py-5">
-                <h1 className="text-2xl font-bold">
+                <h1 className="text-2xl font-bold text-bleu-vert">
                     Détails du projet
                 </h1>
                 {monProjet?.projectDescription?.map((desc, index) => (
@@ -49,12 +49,13 @@ const ProjetPage = ({mesProjets}) => {
                 ))}
             </div>
             <div className="min-h-[20vh] font-bodyFont2 w-full flex flex-col justify-center px-3 py-5">
-                <h1 className="text-2xl font-bold">
+                <h1 className="text-2xl font-bold text-bleu-vert">
                     Témoignage
                 </h1>
                 {monProjet?.testimony?.map((test, index) =>
                     (<p className="my-3 text-base italic" key={index}>{test}</p>))
                 }
+                <span className="font-semibold text-silver-lake">{monProjet?.clientName}<span className="text-rose-rouge">{monProjet?.name}</span></span>
             </div>
         </div>
     );

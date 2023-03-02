@@ -224,7 +224,7 @@ export const portfoliodb = [
         color: "bg-jaune",
         textColor: "text-jaune",
         year: "2023",
-        url: "https://my-ai-art.netlify.app/",
+        url: "https://alternativo.netlify.app/",
         git: "https://github.com/FCHDev/ai-art-browser",
         cover: alternativo,
         logo: alternativoLogo,
@@ -234,8 +234,16 @@ export const portfoliodb = [
         language: "Fr",
         professional: true,
         description: "Un joli projet de landing page pour une toute jeune entreprise du Sud-Ouest spécialisée dans le conseil en gestion de patrimoine.",
-        projectDescription:["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas."],
-        testimony: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas."],
+        projectDescription:[
+            "Jeune entreprise du Sud-Ouest spécialisée dans le conseil en gestion de patrimoine, Alternativo a fait appel à mes services pour la création de leur site vitrine. Leur objectif était de présenter leurs services, d'augmenter le volume de RDV et de mettre en avant leur expertise dans le domaine de la gestion de patrimoine.",
+            "Ils souhaitaient pouvoir présenter à leurs clients, un site responsive, simple, clair et en total cohérence avec leurs valeurs et leur chartre graphique. Ils souhaitaient également pouvoir mettre à jour leur site eux-mêmes, sans avoir à faire appel à un développeur. J'ai donc opté pour la solution NextJS combinée à Firebase pour la gestion de leur base de données, et TailwindCSS pour la mise en page du site.",
+            "Ils m'ont également sollicité pour la déclaration du nom de domaine, de l'hébergement et de la mise en place de la base de données Firebase.",
+            "Le site est actuellement en ligne, et est régulièrement mis à jour par l'entreprise."
+        ],
+        testimony: [
+            "François a été très réactif et à l'écoute de nos besoins. Il a su nous proposer une solution adaptée à notre budget, et nous a accompagné tout au long du projet. Nous sommes très satisfaits du résultat, et nous recommandons vivement ses services."
+        ],
+        clientName: "Marion, co-fondatrice d'",
         api: "API utilisée : Google Firebase",
     },
     {
@@ -253,8 +261,15 @@ export const portfoliodb = [
         language: "Fr",
         professional: true,
         description: "Optimisation du référencement naturel pour le site Mysteries Hunt, spécialiste du Team building et des Enquêtes historiques à Versailles ou Paris.",
-        projectDescription:["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas."],
-        testimony: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum dolor hic, illum impedit laborum maiores officiis optio quaerat quidem soluta voluptatem? A accusantium ad aliquid amet debitis delectus ea eos facere, illum impedit ipsum itaque iure laudantium natus odit, omnis perferendis porro ratione repudiandae sed unde veniam vero, voluptas."],
+        projectDescription:[
+            "Depuis maintenant plus de 10 ans, Mysteries Hunt organise des enquêtes spatio-temporelles, des jeux de piste, escape game ou encore Team Building à Versailles ou au coeur de Paris. Une forte concurrence dans ce domaine se fait aujourd'hui plus forte, et l'objectif principal de la mission était l'amélioration de leur référencement naturel.",
+            "Le site étant hébergé depuis la création sur Wix, j'ai d'abord du définir les intentions de recherches les plus pertinentes (avec une forte volonté de s'orienter vers des prestations B2B / Team building), redéfinir tous les titres des médias en ligne, gestion des titres, des métadonnées, des adresses en page d'accueil, etc...",
+            "L'audit et la mise en place de la stratégie SEO ont été réalisés en 1 mois. Le site a été optimisé pour les moteurs de recherche, et les résultats sont très satisfaisants. Le site est actuellement en première page de Google pour les mots clés les plus importants, et le trafic est en constante augmentation."
+        ],
+        testimony: [
+            "François a été très réactif et à l'écoute de nos besoins. Il a su nous écouter, et nous a accompagné tout au long du projet. Points forts : la communication et la disponibilité de François ont été particulièrement déterminantes. Notre business est très saisonnier, c'est pourquoi, nous voulions profiter de la période hivernale pour travailler notre visibilité en ligne et nous assurer un meilleur référencement pour les mois de printemps et d'été qui arrivent. Nous recommandons vivement ses services."
+        ],
+        clientName: "Cyril, co-fondateur de ",
     },
     {
         name: "Audio player",

@@ -60,7 +60,7 @@ const Contact = () => {
                     <button
                         className="flex items-center justify-center mx-auto bg-[#FFCB47] text-bleu-vert font-bodyText font-bold px-5 py-2 rounded-2xl transition ease-in-out lg:hover:-translate-y-1 lg:hover:scale-105 duration-300 mt-5 mb-8 lg:mb-16 ">
                         <img src={phone} alt="telephone icon"/>
-                        <span className="ml-2 md:block hidden">06 43 65 51 38</span>
+                        <a href="tel:+33643655138" className="ml-2 md:block hidden">06 43 65 51 38</a>
                     </button>
                     <form action="#" ref={formRef} className="space-y-8">
                         {/*NOM*/}
@@ -126,7 +126,7 @@ const Contact = () => {
                         {/*        onClick={() => setModal(true)}>*/}
                         {/*    TEST*/}
                         {/*</button>*/}
-                        <div className="text-xs">
+                        <div className="text-xs font-bodyFont2">
                             * Champs obligatoires
                         </div>
                     </form>
