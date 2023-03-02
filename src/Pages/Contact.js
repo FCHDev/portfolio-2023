@@ -57,11 +57,13 @@ const Contact = () => {
                         ci-dessous, je vous répondrai dans les plus brefs délais. Vous pouvez également directement
                         m'appeler en cliquant sur le bouton ci-dessous.
                     </p>
-                    <button
-                        className="flex items-center justify-center mx-auto bg-[#FFCB47] text-bleu-vert font-bodyText font-bold px-5 py-2 rounded-2xl transition ease-in-out lg:hover:-translate-y-1 lg:hover:scale-105 duration-300 mt-5 mb-8 lg:mb-16 ">
-                        <img src={phone} alt="telephone icon"/>
-                        <a href="tel:+33643655138" className="ml-2 md:block hidden">06 43 65 51 38</a>
-                    </button>
+                    <a href="tel:[+33]643655138">
+                        <button
+                            className="flex items-center justify-center mx-auto bg-[#FFCB47] text-bleu-vert font-bodyText font-bold px-5 py-2 rounded-2xl transition ease-in-out lg:hover:-translate-y-1 lg:hover:scale-105 duration-300 mt-5 mb-8 lg:mb-16 ">
+                            <img src={phone} alt="telephone icon"/>
+                            <span className="ml-2 md:block hidden">06 43 65 51 38</span>
+                        </button>
+                    </a>
                     <form action="#" ref={formRef} className="space-y-8">
                         {/*NOM*/}
                         <div>
@@ -121,11 +123,6 @@ const Contact = () => {
                                 onClick={(e) => sendEmail(e)}>
                             Envoyer
                         </button>
-                        {/*<button type="submit"*/}
-                        {/*        className="py-3 px-5 text-base font-medium text-center text-bleu-vert font-semibold rounded-lg bg-jaune sm:w-fit hover:bg-clair focus:ring-4 focus:outline-none focus:ring-primary-300 font-bodyFont2 ml-5"*/}
-                        {/*        onClick={() => setModal(true)}>*/}
-                        {/*    TEST*/}
-                        {/*</button>*/}
                         <div className="text-xs font-bodyFont2">
                             * Champs obligatoires
                         </div>
@@ -134,12 +131,14 @@ const Contact = () => {
             </section>
 
             {/*Modal*/}
-            <div className={`${modal ? "absolute" : "hidden"} w-full h-screen bg-white bg-opacity-90 flex flex-col justify-center items-center`}>
+            <div
+                className={`${modal ? "absolute" : "hidden"} w-full h-screen bg-white bg-opacity-90 flex flex-col justify-center items-center`}>
                 <div
                     className="w-[300px] h-[150px] bg-bleu-vert rounded-2xl shadow-lg flex flex-col justify-center items-center relative">
                     <span className="text-jaune font-semibold pb-1">Message envoyé</span>
                     <span className="text-white mb-5">Je reviens très rapidement vers vous !</span>
-                    <span className="absolute top-1 right-3 text-white text-2xl cursor-pointer" onClick={() => setModal(false)}>X</span>
+                    <span className="absolute top-1 right-3 text-white text-2xl cursor-pointer"
+                          onClick={() => setModal(false)}>X</span>
                     <button className="w-1/3 bg-jaune rounded-2xl py-1" onClick={() => setModal(false)}>OK</button>
                 </div>
             </div>
